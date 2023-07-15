@@ -13,6 +13,13 @@ body {
     background-size: cover;
     background-position: centers;
 }
+
+@media screen and (max-width: 992px) {
+    body {
+      background-color: #ae9cff;
+      background-image: none;
+    }
+  }
 .container {
     background-color: #ffffff;
     width: 90vmin;
